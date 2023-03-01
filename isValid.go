@@ -1,11 +1,14 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 // 有效的括号
 // https://leetcode.cn/problems/valid-parentheses/
+
+func main() {
+	input := "()[]{}"
+	fmt.Println(isValid(input))
+}
 
 // 方法二 map
 func isValid(s string) bool {
@@ -57,8 +60,3 @@ func isValid(s string) bool {
 //	}
 //	return len(stack) == 0
 //}
-
-func main() {
-	input := "()[]{}"
-	fmt.Println(isValid(input))
-}
