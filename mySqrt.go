@@ -6,7 +6,17 @@ import (
 
 // x 的平方根
 // https://leetcode.cn/problems/sqrtx/
-// 方法四 牛顿迭代
+// 方法四 牛顿迭代(https://mathworld.wolfram.com/NewtonsIteration.html)
+// !!! 不能直接使用整数进行运算 x=8 会陷入死循环
+func mySqrt(x int) int {
+	i := float64(1)
+	prev := float64(0) // 上一个值
+	for int(i) != int(prev) {
+		prev, i = i, (i+float64(x)/i)/2
+		//fmt.Println(prev, i)
+	}
+	return int(i)
+}
 
 // 方法三 二分查找 方法一优化
 //func mySqrt(x int) int {
@@ -50,5 +60,5 @@ import (
 //}
 
 func main() {
-	fmt.Println(mySqrt(214323143))
+	fmt.Println(mySqrt(8))
 }
