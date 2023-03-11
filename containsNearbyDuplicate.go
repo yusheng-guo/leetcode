@@ -5,6 +5,25 @@ import "fmt"
 // 219. 存在重复元素 II
 // https://leetcode.cn/problems/contains-duplicate-ii/description/
 
+// 方法三 滑动窗口
+// 遍历nums
+//
+//	1.当i>k时 删除窗口左边元素 若nums[i]在窗口中，返回true；否则向窗口中添加元素nums[i]
+//	2.当i<=k时 若nums[i]在窗口中，返回true；否则向窗口中添加元素nums[i]
+func containsNearbyDuplicate(nums []int, k int) bool {
+	window := map[int]struct{}{}
+	for i, n := range nums {
+		if i > k {
+			delete(window, nums[i-k-1])
+		}
+		if _, ok := window[n]; ok {
+			return true
+		}
+		window[n] = struct{}{}
+	}
+	return false
+}
+
 // 方法二 哈希表
 //func containsNearbyDuplicate(nums []int, k int) bool {
 //	m := map[int]int{}
