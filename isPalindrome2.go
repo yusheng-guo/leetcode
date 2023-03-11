@@ -2,29 +2,29 @@ package main
 
 import (
 	"fmt"
+	"strings"
 )
 
 // 125. 验证回文串
 // https://leetcode.cn/problems/valid-palindrome/description/
 // 方法二 双指针s
 func isPalindrome2(s string) bool {
+	s = strings.ToLower(s)
 	left, right := 0, len(s)-1
 	for left < right {
-		v1, v2 := s[left], s[right]
-		for !((v1 >= 48 && v1 <= 57) || (v1 >= 97 && v1 <= 122)) {
+		for left < right && !((s[left] >= 'a' && s[left] <= 'z') || (s[left] >= '0' && s[left] <= '9')) {
 			left++
-			v1 = s[left]
 		}
-		for !((v2 >= 48 && v2 <= 57) || (v2 >= 97 && v2 <= 122)) {
+		for left < right && !((s[right] >= 'a' && s[right] <= 'z') || (s[right] >= '0' && s[right] <= '9')) {
 			right--
-			v2 = s[right]
 		}
-		fmt.Println(string(v1), string(v2))
-		if v1 != v2 {
-			return false
+		if left < right {
+			if s[left] != s[right] {
+				return false
+			}
+			left++
+			right--
 		}
-		left++
-		right--
 	}
 	return true
 }
