@@ -7,7 +7,8 @@ import (
 // 409. 最长回文串
 // https://leetcode.cn/problems/longest-palindrome/
 
-// 方法一 双重循环
+// 方法一 双重循环 暴力解法
+// 问题 超出时间限制
 // is 判断是否为回文串
 func is(s string) bool {
 	reverse := []rune(s)
@@ -17,21 +18,23 @@ func is(s string) bool {
 	return s == string(reverse)
 }
 
-func longestPalindrome(s string) int {
+func longestPalindrome(s string) string {
 	l := len(s)
 	max := 0
+	left, right := 0, 0
 	for i := 0; i < l; i++ {
-		for j := l - 1; j > i; j-- {
-			if is(s[i:j+1]) && len(s[i:j+1]) > max {
-				max = len(s[i : j+1])
+		for j := l; j-i > max; j-- {
+			if is(s[i:j]) {
+				max = j - i
+				left, right = i, j
 			}
 		}
 	}
-	return max
+	return s[left:right]
 }
 
 func main() {
-	s := "abccccdd"
+	s := "babad"
 	ret := longestPalindrome(s)
 	fmt.Println(ret)
 }
