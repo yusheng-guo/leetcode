@@ -7,7 +7,7 @@ import (
 
 // 1626. 无矛盾的最佳球队
 // https://leetcode.cn/problems/best-team-with-no-conflicts/
-// 思路
+// 思路 动态规划
 // 排序：按分数排序，分数相同则按年龄排序
 func bestTeamScore(scores []int, ages []int) int {
 	// 合并
@@ -17,15 +17,39 @@ func bestTeamScore(scores []int, ages []int) int {
 		people[i][0] = scores[i]
 		people[i][1] = ages[i]
 	}
-	fmt.Println(people)
-	// 排序
-	sort.Slice(people)
-	return 0
+	// 排序 先按分数排序 分数相同按年龄排序
+	sort.Slice(people, func(i, j int) bool {
+		if people[i][0] < people[j][0] {
+			return true
+		} else if people[i][0] > people[j][0] {
+			return false
+		}
+		return people[i][1] < people[j][1]
+	})
+	arr := make([]int, l)
+	maxScore := 0
+	for i := 0; i < l; i++ {
+		for j := 0; j < i; j++ {
+			if people[i][1] >= people[j][1] {
+				arr[i] = max(arr[i], arr[j])
+			}
+		}
+		arr[i] += people[i][0]
+		maxScore = max(maxScore, arr[i])
+	}
+	return maxScore
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }
 
 func main() {
-	scores := []int{1, 3, 5, 10, 15}
-	ages := []int{1, 2, 3, 4, 5}
+	scores := []int{4, 5, 6, 5}
+	ages := []int{2, 1, 2, 1}
 	ret := bestTeamScore(scores, ages)
 	fmt.Println(ret)
 }
