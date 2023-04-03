@@ -4,7 +4,7 @@ import "fmt"
 
 // LCP 66. 最小展台数量
 // https://leetcode.cn/problems/600YaG/description/
-// 方法二
+// 方法二 方法一优化
 func minNumBooths(demand []string) int {
 	m0 := map[uint8]int{} // 全局map
 	ans := 0
