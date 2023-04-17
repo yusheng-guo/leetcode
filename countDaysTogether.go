@@ -2,23 +2,41 @@ package main
 
 import (
 	"fmt"
+	"strconv"
 )
 
 // 2409. 统计共同度过的日子数
 // https://leetcode.cn/problems/count-days-spent-together/
 // 方法二
 func countDaysTogether(arriveAlice string, leaveAlice string, arriveBob string, leaveBob string) int {
+	left, right := 0, 0
+	if days(arriveAlice) < days(arriveBob) {
+		left = days(arriveBob)
+	} else {
+		left = days(arriveAlice)
+	}
 
+	if days(leaveAlice) < days(leaveBob) {
+		right = days(leaveAlice)
+	} else {
+		right = days(leaveBob)
+	}
+	if right-left+1 > 0 {
+		return right - left + 1
+	}
 	return 0
 }
 
 // days 计算从年初开始到date的天数
 func days(date string) int {
 	daysOfMonth := []int{31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31} // 每个月的天数
-	//prefixSum :=
-	for v := range daysOfMonth {
-		
+	prefixSum := []int{0}
+	for i, v := range daysOfMonth {
+		prefixSum = append(prefixSum, v+prefixSum[i])
 	}
+	idx, _ := strconv.Atoi(date[:2])
+	n, _ := strconv.Atoi(date[3:])
+	return prefixSum[idx-1] + n
 }
 
 // 方法一
