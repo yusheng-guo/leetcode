@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 1041. 困于环中的机器人
 // https://leetcode.cn/problems/robot-bounded-in-circle/
 func isRobotBounded(instructions string) bool {
@@ -29,7 +27,7 @@ func isRobotBounded(instructions string) bool {
 	return (x == 0 && y == 0) || dir != 90
 }
 
-func main() {
-	ret := isRobotBounded("GLGLGGLGL")
-	fmt.Println(ret)
-}
+// func main() {
+// 	ret := isRobotBounded("GLGLGGLGL")
+// 	fmt.Println(ret)
+// }

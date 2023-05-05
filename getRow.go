@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 119. 杨辉三角 II
 // https://leetcode.cn/problems/pascals-triangle-ii/description/
 // 方法一
@@ -16,6 +14,6 @@ import "fmt"
 //	return arr
 //}
 
-func main() {
-	fmt.Println(getRow(5))
-}
+// func main() {
+// 	fmt.Println(getRow(5))
+// }

@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -31,15 +30,9 @@ func minScoreTriangulation(values []int) int {
 	}
 	return dp(0, n-1)
 }
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}
 
-func main() {
-	values := []int{1, 2, 3}
-	ret := minScoreTriangulation(values)
-	fmt.Println(ret)
-}
+// func main() {
+// 	values := []int{1, 2, 3}
+// 	ret := minScoreTriangulation(values)
+// 	fmt.Println(ret)
+// }

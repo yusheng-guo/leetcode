@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 1574. 删除最短的子数组使剩余数组有序
 // https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted/
 // 双指针 参考官方题解
@@ -29,8 +27,8 @@ func findLengthOfShortestSubarray(arr []int) int {
 	return res
 }
 
-func main() {
-	arr := []int{1, 2, 3, 10, 4, 2, 3, 5}
-	ret := findLengthOfShortestSubarray(arr)
-	fmt.Println(ret)
-}
+// func main() {
+// 	arr := []int{1, 2, 3, 10, 4, 2, 3, 5}
+// 	ret := findLengthOfShortestSubarray(arr)
+// 	fmt.Println(ret)
+// }

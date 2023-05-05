@@ -26,8 +26,8 @@ func letterCombinations(digits string) []string {
 	return ret
 }
 
-func main() {
-	digits := "23"
-	ret := letterCombinations(digits)
-	fmt.Println(ret)
-}
+// func main() {
+// 	digits := "23"
+// 	ret := letterCombinations(digits)
+// 	fmt.Println(ret)
+// }

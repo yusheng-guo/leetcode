@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 2427. 公因子的数目
 // https://leetcode.cn/problems/number-of-common-factors/
 func commonFactors(a int, b int) int {
@@ -49,8 +47,8 @@ func gcd(a, b int) int {
 	return a
 }
 
-func main() {
-	a, b := 927, 513
-	ret := commonFactors(a, b)
-	fmt.Println(ret)
-}
+// func main() {
+// 	a, b := 927, 513
+// 	ret := commonFactors(a, b)
+// 	fmt.Println(ret)
+// }

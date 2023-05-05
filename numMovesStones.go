@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // 1033. 移动石子直到连续
 // https://leetcode.cn/problems/moving-stones-until-consecutive/
 func numMovesStones(a int, b int, c int) []int {
@@ -28,10 +24,10 @@ func numMovesStones(a int, b int, c int) []int {
 	return []int{min, max}
 }
 
-func main() {
-	a := 1
-	b := 2
-	c := 5
-	ret := numMovesStones(a, b, c)
-	fmt.Println(ret)
-}
+// func main() {
+// 	a := 1
+// 	b := 2
+// 	c := 5
+// 	ret := numMovesStones(a, b, c)
+// 	fmt.Println(ret)
+// }

@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 2574. 左右元素和的差值
 // https://leetcode.cn/problems/left-and-right-sum-differences/
 func leftRigthDifference(nums []int) []int {
@@ -43,8 +41,8 @@ func leftRigthDifference(nums []int) []int {
 //	return ans
 //}
 
-func main() {
-	nums := []int{10, 4, 8, 3}
-	ret := leftRigthDifference(nums)
-	fmt.Println(ret)
-}
+// func main() {
+// 	nums := []int{10, 4, 8, 3}
+// 	ret := leftRigthDifference(nums)
+// 	fmt.Println(ret)
+// }

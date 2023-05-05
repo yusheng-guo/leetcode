@@ -30,11 +30,11 @@ func minNumberOfHours(initialEnergy int, initialExperience int, energy []int, ex
 	return requireEnergy + requireExperience
 }
 
-func main() {
-	initialEnergy := 2
-	initialExperience := 4
-	energy := []int{1}
-	experience := []int{3}
-	ret := minNumberOfHours(initialEnergy, initialExperience, energy, experience)
-	fmt.Println(ret)
-}
+// func main() {
+// 	initialEnergy := 2
+// 	initialExperience := 4
+// 	energy := []int{1}
+// 	experience := []int{3}
+// 	ret := minNumberOfHours(initialEnergy, initialExperience, energy, experience)
+// 	fmt.Println(ret)
+// }

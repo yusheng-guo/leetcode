@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // 方法二 分治
 const (
 	m1 = 0x55555555 // 01010101010101010101010101010101
@@ -30,8 +26,8 @@ func reverseBits(n uint32) uint32 {
 //	return ans
 //}
 
-func main() {
-	var n uint32 = 31243
-	ret := reverseBits(n)
-	fmt.Println(ret)
-}
+// func main() {
+// 	var n uint32 = 31243
+// 	ret := reverseBits(n)
+// 	fmt.Println(ret)
+// }

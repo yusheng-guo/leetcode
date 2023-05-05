@@ -2,16 +2,14 @@ package main
 
 // 1032. 字符流
 // https://leetcode.cn/problems/stream-of-characters/
-type StreamChecker struct {
-}
+// type StreamChecker struct {
+// }
 
-func Constructor(words []string) StreamChecker {
+// func Constructor(words []string) StreamChecker {
+// }
 
-}
-
-func (this *StreamChecker) Query(letter byte) bool {
-
-}
+// func (this *StreamChecker) Query(letter byte) bool {
+// }
 
 /**
  * Your StreamChecker object will be instantiated and called as such:

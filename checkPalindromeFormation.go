@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // 1616. 分割两个字符串得到回文串
 // https://leetcode.cn/problems/split-two-strings-to-make-palindrome/
 // 1 <= a.length, b.length <= 105
@@ -66,9 +62,9 @@ func isIambicString(s string) bool {
 //	return true
 //}
 
-func main() {
-	a := "aejbaalflrmkswrydwdkdwdyrwskmrlfqizjezd"
-	b := "uvebspqckawkhbrtlqwblfwzfptanhiglaabjea"
-	ret := checkPalindromeFormation(a, b)
-	fmt.Println(ret)
-}
+// func main() {
+// 	a := "aejbaalflrmkswrydwdkdwdyrwskmrlfqizjezd"
+// 	b := "uvebspqckawkhbrtlqwblfwzfptanhiglaabjea"
+// 	ret := checkPalindromeFormation(a, b)
+// 	fmt.Println(ret)
+// }

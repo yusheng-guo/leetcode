@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -84,10 +83,10 @@ func reverseWords(s string) string {
 //	return ret[1:]
 //}
 
-func main() {
-	//s := "the sky is blue"
-	//s := "hello world!"
-	s := "  hello   world  "
-	ret := reverseWords(s)
-	fmt.Println(ret, len(ret))
-}
+// func main() {
+// 	//s := "the sky is blue"
+// 	//s := "hello world!"
+// 	s := "  hello   world  "
+// 	ret := reverseWords(s)
+// 	fmt.Println(ret, len(ret))
+// }

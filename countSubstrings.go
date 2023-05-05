@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 1638. 统计只差一个字符的子串数目
 // https://leetcode.cn/problems/count-substrings-that-differ-by-one-character/
 // 方法一 遍历 三次循环
@@ -33,9 +31,9 @@ func min(a, b int) int {
 	return b
 }
 
-func main() {
-	s := "aba"
-	t := "baba"
-	ret := countSubstrings(s, t)
-	fmt.Println(ret)
-}
+// func main() {
+// 	s := "aba"
+// 	t := "baba"
+// 	ret := countSubstrings(s, t)
+// 	fmt.Println(ret)
+// }

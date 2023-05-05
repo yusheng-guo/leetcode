@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -36,8 +35,8 @@ func adventureCamp(expeditions []string) int {
 	return index
 }
 
-func main() {
-	expeditions := []string{"Alice->Dex", "", "Dex"}
-	//expeditions := []string{"", "Gryffindor->Slytherin->Gryffindor", "Hogwarts->Hufflepuff->Ravenclaw"}
-	fmt.Println(adventureCamp(expeditions))
-}
+// func main() {
+// 	expeditions := []string{"Alice->Dex", "", "Dex"}
+// 	//expeditions := []string{"", "Gryffindor->Slytherin->Gryffindor", "Hogwarts->Hufflepuff->Ravenclaw"}
+// 	fmt.Println(adventureCamp(expeditions))
+// }

@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // 1599. 经营摩天轮的最大利润
 // https://leetcode.cn/problems/maximum-profit-of-operating-a-centennial-wheel/
 func minOperationsMaxProfit(customers []int, boardingCost int, runningCost int) int {
@@ -37,10 +33,10 @@ func minOperationsMaxProfit(customers []int, boardingCost int, runningCost int) 
 	return count
 }
 
-func main() {
-	customers := []int{2}
-	boardingCost := 2
-	runningCost := 4
-	count := minOperationsMaxProfit(customers, boardingCost, runningCost)
-	fmt.Println(count)
-}
+// func main() {
+// 	customers := []int{2}
+// 	boardingCost := 2
+// 	runningCost := 4
+// 	count := minOperationsMaxProfit(customers, boardingCost, runningCost)
+// 	fmt.Println(count)
+// }

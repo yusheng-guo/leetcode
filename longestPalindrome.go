@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // 409. 最长回文串
 // https://leetcode.cn/problems/longest-palindrome/
 
@@ -33,8 +29,8 @@ func longestPalindrome(s string) string {
 	return s[left:right]
 }
 
-func main() {
-	s := "babad"
-	ret := longestPalindrome(s)
-	fmt.Println(ret)
-}
+// func main() {
+// 	s := "babad"
+// 	ret := longestPalindrome(s)
+// 	fmt.Println(ret)
+// }

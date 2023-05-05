@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // 1653. 使字符串平衡的最少删除次数
 // https://leetcode.cn/problems/minimum-deletions-to-make-string-balanced/
 
@@ -56,8 +52,8 @@ func minimumDeletions(s string) int {
 //	return min
 //}
 
-func main() {
-	s := "aaabbbabbabaabbbb"
-	ret := minimumDeletions(s)
-	fmt.Println(ret)
-}
+// func main() {
+// 	s := "aaabbbabbabaabbbb"
+// 	ret := minimumDeletions(s)
+// 	fmt.Println(ret)
+// }

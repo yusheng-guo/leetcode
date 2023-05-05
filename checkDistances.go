@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 2399. 检查相同字母间的距离
 // https://leetcode.cn/problems/check-distances-between-same-letters/
 // 方法三 Leetcode官方题解
@@ -43,9 +41,9 @@ func checkDistances(s string, distance []int) bool {
 //	return true
 //}
 
-func main() {
-	s := "abaccb"
-	distance := []int{1, 3, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
-	ret := checkDistances(s, distance)
-	fmt.Println(ret)
-}
+// func main() {
+// 	s := "abaccb"
+// 	distance := []int{1, 3, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+// 	ret := checkDistances(s, distance)
+// 	fmt.Println(ret)
+// }

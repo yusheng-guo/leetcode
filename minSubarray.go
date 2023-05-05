@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 1590. 使数组和能被 P 整除
 // https://leetcode.cn/problems/make-sum-divisible-by-p/description/
 func minSubarray(nums []int, p int) int {
@@ -35,8 +33,8 @@ func minSubarray(nums []int, p int) int {
 	return minCount
 }
 
-func main() {
-	nums := []int{3, 1, 4, 2}
-	p := 6
-	fmt.Println(minSubarray(nums, p))
-}
+// func main() {
+// 	nums := []int{3, 1, 4, 2}
+// 	p := 6
+// 	fmt.Println(minSubarray(nums, p))
+// }

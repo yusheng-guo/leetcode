@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 2469. 温度转换
 // https://leetcode.cn/problems/convert-the-temperature/
 func convertTemperature(celsius float64) []float64 {
@@ -10,8 +8,8 @@ func convertTemperature(celsius float64) []float64 {
 	return []float64{kelvin, fahrenheit}
 }
 
-func main() {
-	celsius := 36.50
-	ret := convertTemperature(celsius)
-	fmt.Println(ret)
-}
+// func main() {
+// 	celsius := 36.50
+// 	ret := convertTemperature(celsius)
+// 	fmt.Println(ret)
+// }

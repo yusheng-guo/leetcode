@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 1056. 易混淆数
 // https://leetcode.cn/problems/confusing-number/
 func confusingNumber(n int) bool {
@@ -24,8 +22,8 @@ func confusingNumber(n int) bool {
 	return reverse != origin
 }
 
-func main() {
-	n := 11
-	ret := confusingNumber(n)
-	fmt.Println(ret)
-}
+// func main() {
+// 	n := 11
+// 	ret := confusingNumber(n)
+// 	fmt.Println(ret)
+// }

@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 2413. 最小偶倍数
 // https://leetcode.cn/problems/smallest-even-multiple/
 // 方法一
@@ -30,6 +28,6 @@ func smallestEvenMultiple(n int) int {
 	return n << (n & 1)
 }
 
-func main() {
-	fmt.Println(smallestEvenMultiple(5))
-}
+// func main() {
+// 	fmt.Println(smallestEvenMultiple(5))
+// }

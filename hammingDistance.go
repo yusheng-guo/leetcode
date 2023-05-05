@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // 461. 汉明距离
 // https://leetcode.cn/problems/hamming-distance/
 // 方法四 Brian Kernighan 算法
@@ -48,9 +44,9 @@ func hammingDistance(x int, y int) int {
 //	return distance
 //}
 
-func main() {
-	x := 1
-	y := 4
-	ret := hammingDistance(x, y)
-	fmt.Println(ret)
-}
+// func main() {
+// 	x := 1
+// 	y := 4
+// 	ret := hammingDistance(x, y)
+// 	fmt.Println(ret)
+// }

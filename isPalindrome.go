@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 回文数
 // https://leetcode.cn/problems/palindrome-number/
 //func isPalindrome(x int) bool {
@@ -42,7 +40,7 @@ func isPalindrome(x int) bool {
 	return num == ret
 }
 
-func main() {
-	ret := isPalindrome(12321)
-	fmt.Println(ret)
-}
+// func main() {
+// 	ret := isPalindrome(12321)
+// 	fmt.Println(ret)
+// }

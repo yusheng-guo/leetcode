@@ -40,9 +40,9 @@ func sign(num int) int {
 	return -1
 }
 
-func main() {
-	nums := []int{3, 2, 1, 4, 5}
-	k := 4
-	ret := countSubarrays(nums, k)
-	fmt.Println(ret)
-}
+// func main() {
+// 	nums := []int{3, 2, 1, 4, 5}
+// 	k := 4
+// 	ret := countSubarrays(nums, k)
+// 	fmt.Println(ret)
+// }

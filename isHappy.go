@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 202. 快乐数
 // https://leetcode.cn/problems/happy-number/description/
 
@@ -84,6 +82,6 @@ func step(n int) int {
 //	return end
 //}
 
-func main() {
-	fmt.Println(isHappy(19))
-}
+// func main() {
+// 	fmt.Println(isHappy(19))
+// }

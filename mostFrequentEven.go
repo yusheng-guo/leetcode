@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // 2404. 出现最频繁的偶数元素
 // https://leetcode.cn/problems/most-frequent-even-element/
 // 方法二 优化方法一
@@ -60,8 +56,8 @@ func mostFrequentEven(num []int) int {
 //	return
 //}
 
-func main() {
-	nums := []int{0, 1, 2, 2, 4, 4, 1}
-	ret := mostFrequentEven(nums)
-	fmt.Println(ret)
-}
+// func main() {
+// 	nums := []int{0, 1, 2, 2, 4, 4, 1}
+// 	ret := mostFrequentEven(nums)
+// 	fmt.Println(ret)
+// }

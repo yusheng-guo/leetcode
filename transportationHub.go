@@ -29,9 +29,9 @@ func transportationHub(path [][]int) int {
 	return -1
 }
 
-func main() {
-	//path := [][]int{{0, 1}, {0, 3}, {1, 3}, {2, 0}, {2, 3}}
-	path := [][]int{{1, 3}, {1, 2}, {0, 2}, {3, 2}}
-	ret := transportationHub(path)
-	fmt.Println(ret)
-}
+// func main() {
+// 	//path := [][]int{{0, 1}, {0, 3}, {1, 3}, {2, 0}, {2, 3}}
+// 	path := [][]int{{1, 3}, {1, 2}, {0, 2}, {3, 2}}
+// 	ret := transportationHub(path)
+// 	fmt.Println(ret)
+// }

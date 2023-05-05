@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 266. 回文排列
 // https://leetcode.cn/problems/palindrome-permutation/description/
 // 方法二
@@ -33,7 +31,7 @@ func canPermutePalindrome(s string) bool {
 //	return count < 2
 //}
 
-func main() {
-	ret := canPermutePalindrome("abdg")
-	fmt.Println(ret)
-}
+// func main() {
+// 	ret := canPermutePalindrome("abdg")
+// 	fmt.Println(ret)
+// }

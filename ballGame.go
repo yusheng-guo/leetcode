@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 //func ballGame(num int, plate []string) [][]int {
 //	var ret [][]int
 //	lx, ly := len(plate[0]), len(plate)
@@ -169,15 +167,15 @@ func roll(x, y, lx, ly, direction, pace int, plate []string) bool {
 	return false
 }
 
-func main() {
-	num := 41
-	plate := []string{"E...W..WW", ".E...O...", "...WO...W", "..OWW.O..", ".W.WO.W.E", "O..O.W...", ".OO...W..", "..EW.WEE."}
-	ret := ballGame(num, plate)
-	for i := 0; i < len(plate); i++ {
-		for j := 0; j < len(plate[0]); j++ {
-			fmt.Printf("%c ", plate[i][j])
-		}
-		fmt.Println()
-	}
-	fmt.Println(ret)
-}
+// func main() {
+// 	num := 41
+// 	plate := []string{"E...W..WW", ".E...O...", "...WO...W", "..OWW.O..", ".W.WO.W.E", "O..O.W...", ".OO...W..", "..EW.WEE."}
+// 	ret := ballGame(num, plate)
+// 	for i := 0; i < len(plate); i++ {
+// 		for j := 0; j < len(plate[0]); j++ {
+// 			fmt.Printf("%c ", plate[i][j])
+// 		}
+// 		fmt.Println()
+// 	}
+// 	fmt.Println(ret)
+// }

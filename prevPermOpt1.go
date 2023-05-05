@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 1053. 交换一次的先前排列
 // https://leetcode.cn/problems/previous-permutation-with-one-swap/
 // 贪心算法
@@ -21,8 +19,8 @@ func prevPermOpt1(arr []int) []int {
 	return arr
 }
 
-func main() {
-	arr := []int{3, 1, 1, 3}
-	ret := prevPermOpt1(arr)
-	fmt.Println(ret)
-}
+// func main() {
+// 	arr := []int{3, 1, 1, 3}
+// 	ret := prevPermOpt1(arr)
+// 	fmt.Println(ret)
+// }

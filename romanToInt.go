@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func romanToInt(s string) int {
 	relation := map[byte]int{
 		'I': 1,
@@ -24,8 +22,8 @@ func romanToInt(s string) int {
 	return ret + relation[s[len(s)-1]]
 }
 
-func main() {
-	s := "MCMXCIV-"
-	ret := romanToInt(s)
-	fmt.Println(ret)
-}
+// func main() {
+// 	s := "MCMXCIV-"
+// 	ret := romanToInt(s)
+// 	fmt.Println(ret)
+// }

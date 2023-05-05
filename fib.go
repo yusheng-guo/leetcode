@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -36,6 +35,6 @@ func fib(n int) int {
 //}
 
 // 1 1 2 3 5
-func main() {
-	fmt.Println(fib(5))
-}
+// func main() {
+// 	fmt.Println(fib(5))
+// }

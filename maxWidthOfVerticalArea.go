@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -38,8 +37,8 @@ func maxWidthOfVerticalArea(points [][]int) int {
 //	return ans
 //}
 
-func main() {
-	points := [][]int{{8, 7}, {9, 9}, {7, 4}, {9, 7}}
-	ret := maxWidthOfVerticalArea(points)
-	fmt.Println(ret)
-}
+// func main() {
+// 	points := [][]int{{8, 7}, {9, 9}, {7, 4}, {9, 7}}
+// 	ret := maxWidthOfVerticalArea(points)
+// 	fmt.Println(ret)
+// }

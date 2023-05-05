@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 1641. 统计字典序元音字符串的数目
 // https://leetcode.cn/problems/count-sorted-vowel-strings/
 // 方法三 动态规划 优化方法二 一数组
@@ -46,7 +44,7 @@ func countVowelStrings(n int) int {
 //	return (n + 4) * (n + 3) * (n + 2) * (n + 1) / 24
 //}
 
-func main() {
-	ret := countVowelStrings(2)
-	fmt.Println(ret)
-}
+// func main() {
+// 	ret := countVowelStrings(2)
+// 	fmt.Println(ret)
+// }

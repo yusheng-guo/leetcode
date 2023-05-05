@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // 7. 整数反转
 // https://leetcode.cn/problems/reverse-integer/
 // 方法二 优化
@@ -57,8 +53,8 @@ func reverse(x int) int {
 //	return ans
 //}
 
-func main() {
-	x := -321
-	ret := reverse(x)
-	fmt.Println(ret)
-}
+// func main() {
+// 	x := -321
+// 	ret := reverse(x)
+// 	fmt.Println(ret)
+// }

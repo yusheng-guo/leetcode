@@ -107,7 +107,7 @@ func addStrings(num1 string, num2 string) string {
 //	return strconv.Itoa(a + b)
 //}
 
-func main() {
-	ret := addStrings("99", "9")
-	fmt.Println(ret)
-}
+// func main() {
+// 	ret := addStrings("99", "9")
+// 	fmt.Println(ret)
+// }

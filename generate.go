@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 118. 杨辉三角
 // https://leetcode.cn/problems/pascals-triangle/
 func generate(numRows int) [][]int {
@@ -19,7 +17,7 @@ func generate(numRows int) [][]int {
 	return ret
 }
 
-func main() {
-	ret := generate(30)
-	fmt.Println(ret)
-}
+// func main() {
+// 	ret := generate(30)
+// 	fmt.Println(ret)
+// }

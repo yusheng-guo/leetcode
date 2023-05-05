@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -37,12 +36,12 @@ func sortPeople(names []string, heights []int) []string {
 //	return names
 //}
 
-func main() {
-	names := []string{"a", "b", "c", "d", "e"}
-	heights := []int{1, 5, 4, 2, 3}
-	ret := sortPeople(names, heights)
-	fmt.Println(ret)
-}
+// func main() {
+// 	names := []string{"a", "b", "c", "d", "e"}
+// 	heights := []int{1, 5, 4, 2, 3}
+// 	ret := sortPeople(names, heights)
+// 	fmt.Println(ret)
+// }
 
 //[b c e d a]
 //[e a b d c]

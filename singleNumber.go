@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // 136. 只出现一次的数字
 // https://leetcode.cn/problems/single-number/
 // 方法二 位运算(异或 满足交换律和结合律)
@@ -30,8 +26,8 @@ func singleNumber(nums []int) int {
 //	return k
 //}
 
-func main() {
-	nums := []int{2, 2, 1}
-	ret := singleNumber(nums)
-	fmt.Println(ret)
-}
+// func main() {
+// 	nums := []int{2, 2, 1}
+// 	ret := singleNumber(nums)
+// 	fmt.Println(ret)
+// }

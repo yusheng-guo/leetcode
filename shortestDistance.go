@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // 243. 最短单词距离
 // https://leetcode.cn/problems/shortest-word-distance/
 // 方法二
@@ -62,10 +58,10 @@ func abs(n int) int {
 //	return n
 //}
 
-func main() {
-	wordsDict := []string{"practice", "makes", "perfect", "coding", "makes"}
-	word1 := "coding"
-	word2 := "practice"
-	ret := shortestDistance(wordsDict, word1, word2)
-	fmt.Println(ret)
-}
+// func main() {
+// 	wordsDict := []string{"practice", "makes", "perfect", "coding", "makes"}
+// 	word1 := "coding"
+// 	word2 := "practice"
+// 	ret := shortestDistance(wordsDict, word1, word2)
+// 	fmt.Println(ret)
+// }

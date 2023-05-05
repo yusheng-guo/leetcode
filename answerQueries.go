@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -33,9 +32,9 @@ func answerQueries(nums []int, queries []int) []int {
 	return ans
 }
 
-func main() {
-	nums := []int{4, 5, 2, 1}
-	queries := []int{3, 10, 21}
-	ret := answerQueries(nums, queries)
-	fmt.Println(ret)
-}
+// func main() {
+// 	nums := []int{4, 5, 2, 1}
+// 	queries := []int{3, 10, 21}
+// 	ret := answerQueries(nums, queries)
+// 	fmt.Println(ret)
+// }

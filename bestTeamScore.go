@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -47,13 +46,6 @@ func max(a, b int) int {
 	return b
 }
 
-func main() {
-	scores := []int{4, 5, 6, 5}
-	ages := []int{2, 1, 2, 1}
-	ret := bestTeamScore(scores, ages)
-	fmt.Println(ret)
-}
-
 // leetcode 官方题解
 //func bestTeamScore(scores []int, ages []int) int {
 //	n := len(scores)
@@ -89,3 +81,10 @@ func main() {
 //	}
 //	return a
 //}
+
+// func main() {
+// 	scores := []int{4, 5, 6, 5}
+// 	ages := []int{2, 1, 2, 1}
+// 	ret := bestTeamScore(scores, ages)
+// 	fmt.Println(ret)
+// }

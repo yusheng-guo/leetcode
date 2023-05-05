@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 27. 移除元素
 // https://leetcode.cn/problems/remove-element/
 // 方法二 左右双指针
@@ -31,9 +29,9 @@ func removeElement(nums []int, val int) int {
 //	return slow
 //}
 
-func main() {
-	nums := []int{2, 3, 4, 3, 3, 3, 4, 3}
-	val := 3
-	ret := removeElement(nums, val)
-	fmt.Println(nums[:ret])
-}
+// func main() {
+// 	nums := []int{2, 3, 4, 3, 3, 3, 4, 3}
+// 	val := 3
+// 	ret := removeElement(nums, val)
+// 	fmt.Println(nums[:ret])
+// }

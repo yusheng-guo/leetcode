@@ -1,15 +1,13 @@
 package main
 
-import "fmt"
-
 // 496. 下一个更大元素 I
 // https://leetcode.cn/problems/maxWidthOfVerticalAreanext-greater-element-i/
 // 方法二 单调栈+哈希表
-func nextGreaterElement(nums1 []int, nums2 []int) []int {
-	l1, l2 := len(nums1), len(nums2)
-	ans := make([]int, l1)
-	return ans
-}
+// func nextGreaterElement(nums1 []int, nums2 []int) []int {
+// 	l1, l2 := len(nums1), len(nums2)
+// 	ans := make([]int, l1)
+// 	return ans
+// }
 
 // 方法一 暴力枚举
 //func nextGreaterElement(nums1 []int, nums2 []int) []int {
@@ -35,9 +33,9 @@ func nextGreaterElement(nums1 []int, nums2 []int) []int {
 //	return ans
 //}
 
-func main() {
-	nums1 := []int{4, 1, 2}
-	nums2 := []int{1, 3, 4, 2}
-	ret := nextGreaterElement(nums1, nums2)
-	fmt.Println(ret)
-}
+// func main() {
+// 	nums1 := []int{4, 1, 2}
+// 	nums2 := []int{1, 3, 4, 2}
+// 	ret := nextGreaterElement(nums1, nums2)
+// 	fmt.Println(ret)
+// }

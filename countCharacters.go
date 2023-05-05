@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // 1160. 拼写单词
 // https://leetcode.cn/problems/find-words-that-can-be-formed-by-characters/
 // 方法四 双哈希表 (参考官方题解)
@@ -125,9 +121,9 @@ func countCharacters(words []string, chars string) int {
 //	return ans
 //}
 
-func main() {
-	words := []string{"cat", "bt", "hat", "tree"}
-	chars := "atach"
-	ret := countCharacters(words, chars)
-	fmt.Println(ret)
-}
+// func main() {
+// 	words := []string{"cat", "bt", "hat", "tree"}
+// 	chars := "atach"
+// 	ret := countCharacters(words, chars)
+// 	fmt.Println(ret)
+// }

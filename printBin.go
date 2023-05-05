@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 面试题 05.02. 二进制数转字符串
 // https://leetcode.cn/problems/bianry-number-to-string-lcci/
 
@@ -19,7 +17,7 @@ func printBin(num float64) string {
 	return "ERROR"
 }
 
-func main() {
-	ret := printBin(0.625)
-	fmt.Println(ret)
-}
+// func main() {
+// 	ret := printBin(0.625)
+// 	fmt.Println(ret)
+// }

@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -50,7 +49,7 @@ func isPalindrome2(s string) bool {
 //	return true
 //}
 
-func main() {
-	s := "A man, a plan, a canal: Panama"
-	fmt.Println(isPalindrome2(s))
-}
+// func main() {
+// 	s := "A man, a plan, a canal: Panama"
+// 	fmt.Println(isPalindrome2(s))
+// }

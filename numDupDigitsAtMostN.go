@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strconv"
 )
 
@@ -32,6 +31,6 @@ func isContainsRepeatedNumbers(n int) bool {
 	return false
 }
 
-func main() {
-	fmt.Println(numDupDigitsAtMostN(100))
-}
+// func main() {
+// 	fmt.Println(numDupDigitsAtMostN(100))
+// }

@@ -1,10 +1,8 @@
 package main
 
-import "fmt"
-
 // 5. 最长回文子串
 // https://leetcode.cn/problems/longest-palindromic-substring/
-func longestPalindrome(s string) string {
+func longestPalindrome1(s string) string {
 	l := len(s)
 	ret := string(s[0])
 	for i := 0; i < l; i++ {
@@ -33,8 +31,8 @@ func longestPalindrome(s string) string {
 	return ret
 }
 
-func main() {
-	s := "bababad"
-	ret := longestPalindrome(s)
-	fmt.Println(ret)
-}
+// func main() {
+// 	s := "bababad"
+// 	ret := longestPalindrome1(s)
+// 	fmt.Println(ret)
+// }

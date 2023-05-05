@@ -26,7 +26,7 @@ func removeDuplicates2(nums []int) int {
 // 1, 1, 1, 2, 2, 3
 // 1, 1, 2, 2, 2, 3
 
-func main() {
-	nums := []int{1, 1, 1, 1, 2, 2, 3}
-	fmt.Println(removeDuplicates(nums))
-}
+// func main() {
+// 	nums := []int{1, 1, 1, 1, 2, 2, 3}
+// 	fmt.Println(removeDuplicates(nums))
+// }

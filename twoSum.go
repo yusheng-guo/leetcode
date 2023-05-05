@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // 1. 两数之和
 // https://leetcode.cn/problems/two-sum/
 
@@ -72,9 +68,9 @@ func twoSum(nums []int, target int) []int {
 //	return nil
 //}
 
-func main() {
-	nums := []int{2, 7, 11, 15}
-	target := 10
-	ret := twoSum(nums, target)
-	fmt.Println(ret)
-}
+// func main() {
+// 	nums := []int{2, 7, 11, 15}
+// 	target := 10
+// 	ret := twoSum(nums, target)
+// 	fmt.Println(ret)
+// }

@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // LCP 61. 气温变化趋势
 // https://leetcode.cn/problems/6CE719/?envType=study-plan&id=2022-qiu-sai-ti-ji&plan=lccup&plan_progress=x5979eah
 //const (
@@ -62,9 +60,9 @@ func temperatureTrend(temperatureA []int, temperatureB []int) int {
 //	return ret
 //}
 
-func main() {
-	temperatureA := []int{21, 18, 18, 18, 31}
-	temperatureB := []int{34, 32, 16, 16, 17}
-	ret := temperatureTrend(temperatureA, temperatureB)
-	fmt.Println(ret)
-}
+// func main() {
+// 	temperatureA := []int{21, 18, 18, 18, 31}
+// 	temperatureB := []int{34, 32, 16, 16, 17}
+// 	ret := temperatureTrend(temperatureA, temperatureB)
+// 	fmt.Println(ret)
+// }

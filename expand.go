@@ -1,13 +1,11 @@
 package main
 
-import "fmt"
+// func expand(s string) []string {
 
-func expand(s string) []string {
+// }
 
-}
-
-func main() {
-	s := "{a,b}c{d,e}f"
-	ret := expand(s)
-	fmt.Println(ret)
-}
+// func main() {
+// 	s := "{a,b}c{d,e}f"
+// 	ret := expand(s)
+// 	fmt.Println(ret)
+// }

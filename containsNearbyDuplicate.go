@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 219. 存在重复元素 II
 // https://leetcode.cn/problems/contains-duplicate-ii/description/
 
@@ -63,9 +61,9 @@ func containsNearbyDuplicate(nums []int, k int) bool {
 //	return false
 //}
 
-func main() {
-	nums := []int{1, 0, 1, 1}
-	k := 1
-	ret := containsNearbyDuplicate(nums, k)
-	fmt.Println(ret)
-}
+// func main() {
+// 	nums := []int{1, 0, 1, 1}
+// 	k := 1
+// 	ret := containsNearbyDuplicate(nums, k)
+// 	fmt.Println(ret)
+// }

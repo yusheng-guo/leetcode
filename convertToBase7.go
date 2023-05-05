@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strconv"
 )
 
@@ -53,7 +52,7 @@ func convertToBase7(num int) string {
 //	}
 //}
 
-func main() {
-	ret := convertToBase7(100)
-	fmt.Println(ret)
-}
+// func main() {
+// 	ret := convertToBase7(100)
+// 	fmt.Println(ret)
+// }

@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // 剑指 Offer 56 - I. 数组中数字出现的次数
 // https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/
 
@@ -65,8 +61,8 @@ func singleNumbers(nums []int) []int {
 //	return ret
 //}
 
-func main() {
-	nums := []int{4, 1, 4, 6}
-	ret := singleNumbers(nums)
-	fmt.Println(ret)
-}
+// func main() {
+// 	nums := []int{4, 1, 4, 6}
+// 	ret := singleNumbers(nums)
+// 	fmt.Println(ret)
+// }

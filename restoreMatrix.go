@@ -1,15 +1,7 @@
 package main
 
-import "fmt"
-
 // 1605. 给定行和列的和求可行矩阵
 // https://leetcode.cn/problems/find-valid-matrix-given-row-and-column-sums/
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}
 
 func restoreMatrix(rowSum []int, colSum []int) [][]int {
 	// 创建二维数组
@@ -34,9 +26,9 @@ func restoreMatrix(rowSum []int, colSum []int) [][]int {
 	return matrix
 }
 
-func main() {
-	rowSum := []int{3, 8}
-	colSum := []int{4, 7}
-	ret := restoreMatrix(rowSum, colSum)
-	fmt.Println(ret)
-}
+// func main() {
+// 	rowSum := []int{3, 8}
+// 	colSum := []int{4, 7}
+// 	ret := restoreMatrix(rowSum, colSum)
+// 	fmt.Println(ret)
+// }

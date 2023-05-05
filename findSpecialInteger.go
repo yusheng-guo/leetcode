@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 1287. 有序数组中出现次数超过25%的元素
 // https://leetcode.cn/problems/element-appearing-more-than-25-in-sorted-array/
 // 方法二 二叉查找
@@ -70,8 +68,8 @@ func binarySearchLast(arr []int, target int) int {
 //	return arr[0]
 //}
 
-func main() {
-	arr := []int{1, 2, 2, 6, 6, 6, 6, 7, 10}
-	ret := findSpecialInteger(arr)
-	fmt.Println(ret)
-}
+// func main() {
+// 	arr := []int{1, 2, 2, 6, 6, 6, 6, 7, 10}
+// 	ret := findSpecialInteger(arr)
+// 	fmt.Println(ret)
+// }

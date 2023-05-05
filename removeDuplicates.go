@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 删除有序数组中的重复项
 // https://leetcode.cn/problems/remove-duplicates-from-sorted-array/description/
 // 方法二 双指针
@@ -39,8 +37,8 @@ func removeDuplicates(nums []int) int {
 0, 0, 1, 1, 1, 2, 2, 3, 3, 4
 0, 1, 1, 1, 2, 2, 3, 3, 4
 */
-func main() {
-	nums := []int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}
-	//nums := []int{1, 1, 2}
-	fmt.Println(removeDuplicates(nums))
-}
+// func main() {
+// 	nums := []int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}
+// 	//nums := []int{1, 1, 2}
+// 	fmt.Println(removeDuplicates(nums))
+// }

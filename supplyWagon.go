@@ -29,7 +29,7 @@ func supplyWagon(supplies []int) []int {
 	return supplies
 }
 
-func main() {
-	input := []int{1, 3}
-	fmt.Println(supplyWagon(input))
-}
+// func main() {
+// 	input := []int{1, 3}
+// 	fmt.Println(supplyWagon(input))
+// }

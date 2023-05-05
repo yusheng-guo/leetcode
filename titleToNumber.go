@@ -13,8 +13,8 @@ func titleToNumber(columnTitle string) int {
 	return ret
 }
 
-func main() {
-	columnTitle := "FXSHRXW"
-	ret := titleToNumber(columnTitle)
-	fmt.Println(ret)
-}
+// func main() {
+// 	columnTitle := "FXSHRXW"
+// 	ret := titleToNumber(columnTitle)
+// 	fmt.Println(ret)
+// }

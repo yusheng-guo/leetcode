@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 面试题 17.05. 字母与数字
 // https://leetcode.cn/problems/find-longest-subarray-lcci/description/
 // leetcode 官方
@@ -36,16 +34,16 @@ func findLongestSubarray(array []string) []string {
 	return []string{}
 }
 
-func main() {
-	array := []string{"A", "1", "B", "C", "D", "2", "3", "4", "E", "5", "F", "G", "6", "7", "H", "I", "J", "K", "L", "M"}
-	ret := findLongestSubarray(array)
-	fmt.Println(ret)
+// func main() {
+// 	array := []string{"A", "1", "B", "C", "D", "2", "3", "4", "E", "5", "F", "G", "6", "7", "H", "I", "J", "K", "L", "M"}
+// 	ret := findLongestSubarray(array)
+// 	fmt.Println(ret)
 
-	test := "9"
-	fmt.Println(test)
-	fmt.Println(test[0])
-	//'A' 65
-	//'Z' 90
-	//'0' 48
-	//'9'
-}
+// 	test := "9"
+// 	fmt.Println(test)
+// 	fmt.Println(test[0])
+// 	//'A' 65
+// 	//'Z' 90
+// 	//'0' 48
+// 	//'9'
+// }

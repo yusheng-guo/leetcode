@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strconv"
 )
 
@@ -55,8 +54,8 @@ func calPoints(operations []string) int {
 //	return ret
 //}
 
-func main() {
-	ops := []string{"5", "-2", "4", "C", "D", "9", "+", "+"}
-	ret := calPoints(ops)
-	fmt.Println(ret)
-}
+// func main() {
+// 	ops := []string{"5", "-2", "4", "C", "D", "9", "+", "+"}
+// 	ret := calPoints(ops)
+// 	fmt.Println(ret)
+// }

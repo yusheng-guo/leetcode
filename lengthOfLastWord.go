@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 58. 最后一个单词的长度
 // https://leetcode.cn/problems/length-of-last-word/
 // 注意：临界判断 比如：""  " " "a"
@@ -41,7 +39,7 @@ func lengthOfLastWord(s string) int {
 //	return p1 - p2 + 1
 //}
 
-func main() {
-	ret := lengthOfLastWord(" abcs   ")
-	fmt.Println(ret)
-}
+// func main() {
+// 	ret := lengthOfLastWord(" abcs   ")
+// 	fmt.Println(ret)
+// }

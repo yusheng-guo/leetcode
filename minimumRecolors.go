@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // 2379. 得到 K 个黑块的最少涂色次数
 // https://leetcode.cn/problems/minimum-recolors-to-get-k-consecutive-black-blocks/
 // 方法三 滑动窗口优化 注：复杂度不变
@@ -72,9 +68,9 @@ func minimumRecolors(blocks string, k int) int {
 //	return min
 //}
 
-func main() {
-	blocks := "BWWWBB"
-	k := 6
-	ret := minimumRecolors(blocks, k)
-	fmt.Println(ret)
-}
+// func main() {
+// 	blocks := "BWWWBB"
+// 	k := 6
+// 	ret := minimumRecolors(blocks, k)
+// 	fmt.Println(ret)
+// }

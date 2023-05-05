@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // 1017. 负二进制转换
 // https://leetcode.cn/problems/convert-to-base-2/description/
 // 方法二 优化
@@ -38,8 +34,8 @@ func baseNeg2(n int) string {
 //	return ret
 //}
 
-func main() {
-	fmt.Println(baseNeg2(4))
-	fmt.Println(baseNeg2(3))
-	fmt.Println(baseNeg2(2))
-}
+// func main() {
+// 	fmt.Println(baseNeg2(4))
+// 	fmt.Println(baseNeg2(3))
+// 	fmt.Println(baseNeg2(2))
+// }

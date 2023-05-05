@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func constructLongestPalindrome(s string) int {
 	m := map[rune]int{}
 	for _, v := range s {
@@ -21,8 +19,8 @@ func constructLongestPalindrome(s string) int {
 	return ans + 1
 }
 
-func main() {
-	s := "abccccdd"
-	ret := constructLongestPalindrome(s)
-	fmt.Println(ret)
-}
+// func main() {
+// 	s := "abccccdd"
+// 	ret := constructLongestPalindrome(s)
+// 	fmt.Println(ret)
+// }

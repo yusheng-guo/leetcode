@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 1826. 有缺陷的传感器
 // https://leetcode.cn/problems/faulty-sensor/
 func badSensor(sensor1 []int, sensor2 []int) int {
@@ -46,9 +44,9 @@ func badSensor(sensor1 []int, sensor2 []int) int {
 	return -1
 }
 
-func main() {
-	sensor1 := []int{2, 3, 2, 2, 3, 2}
-	sensor2 := []int{2, 3, 2, 3, 2, 7}
-	ret := badSensor(sensor1, sensor2)
-	fmt.Println(ret)
-}
+// func main() {
+// 	sensor1 := []int{2, 3, 2, 2, 3, 2}
+// 	sensor2 := []int{2, 3, 2, 3, 2, 7}
+// 	ret := badSensor(sensor1, sensor2)
+// 	fmt.Println(ret)
+// }

@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 const (
 	Forward  = true  // 向前
 	Backward = false // 向后
@@ -30,6 +28,6 @@ func passThePillow(n int, time int) int {
 	return position
 }
 
-func main() {
-	fmt.Println(passThePillow(4, 5))
-}
+// func main() {
+// 	fmt.Println(passThePillow(4, 5))
+// }

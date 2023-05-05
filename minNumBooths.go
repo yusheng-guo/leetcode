@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // LCP 66. 最小展台数量
 // https://leetcode.cn/problems/600YaG/description/
 // 方法二 方法一优化
@@ -46,8 +44,8 @@ func minNumBooths(demand []string) int {
 //	return ans
 //}
 
-func main() {
-	demand := []string{"acd", "bed", "accd"}
-	ret := minNumBooths(demand)
-	fmt.Println(ret)
-}
+// func main() {
+// 	demand := []string{"acd", "bed", "accd"}
+// 	ret := minNumBooths(demand)
+// 	fmt.Println(ret)
+// }

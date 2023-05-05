@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // x 的平方根
 // https://leetcode.cn/problems/sqrtx/
 // 方法四 牛顿迭代(https://mathworld.wolfram.com/NewtonsIteration.html)
@@ -59,6 +55,6 @@ func mySqrt(x int) int {
 //	return -1
 //}
 
-func main() {
-	fmt.Println(mySqrt(8))
-}
+// func main() {
+// 	fmt.Println(mySqrt(8))
+// }

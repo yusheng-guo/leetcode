@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strconv"
 )
 
@@ -103,23 +102,23 @@ func days(date string) int {
 //	return 0
 //}
 
-func main() {
-	//arriveAlice := "08-15"
-	//leaveAlice := "08-18"
-	//arriveBob := "08-16"
-	//leaveBob := "08-19"
-	//arriveAlice := "10-01"
-	//leaveAlice := "10-31"
-	//arriveBob := "11-01"
-	//leaveBob := "12-31"
-	//arriveAlice := "09-01"
-	//leaveAlice := "10-19"
-	//arriveBob := "06-19"
-	//leaveBob := "10-20"
-	arriveAlice := "03-05"
-	leaveAlice := "07-14"
-	arriveBob := "04-14"
-	leaveBob := "09-21"
-	ret := countDaysTogether(arriveAlice, leaveAlice, arriveBob, leaveBob)
-	fmt.Println(ret)
-}
+// func main() {
+// 	//arriveAlice := "08-15"
+// 	//leaveAlice := "08-18"
+// 	//arriveBob := "08-16"
+// 	//leaveBob := "08-19"
+// 	//arriveAlice := "10-01"
+// 	//leaveAlice := "10-31"
+// 	//arriveBob := "11-01"
+// 	//leaveBob := "12-31"
+// 	//arriveAlice := "09-01"
+// 	//leaveAlice := "10-19"
+// 	//arriveBob := "06-19"
+// 	//leaveBob := "10-20"
+// 	arriveAlice := "03-05"
+// 	leaveAlice := "07-14"
+// 	arriveBob := "04-14"
+// 	leaveBob := "09-21"
+// 	ret := countDaysTogether(arriveAlice, leaveAlice, arriveBob, leaveBob)
+// 	fmt.Println(ret)
+// }

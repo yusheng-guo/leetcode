@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 2367. 算术三元组的数目
 // https://leetcode.cn/problems/number-of-arithmetic-triplets/description/
 // 方法三 三指针
@@ -62,9 +60,9 @@ func arithmeticTriplets(nums []int, diff int) int {
 //	return count
 //}
 
-func main() {
-	nums := []int{0, 1, 4, 6, 7, 10}
-	diff := 3
-	ret := arithmeticTriplets(nums, diff)
-	fmt.Println(ret)
-}
+// func main() {
+// 	nums := []int{0, 1, 4, 6, 7, 10}
+// 	diff := 3
+// 	ret := arithmeticTriplets(nums, diff)
+// 	fmt.Println(ret)
+// }

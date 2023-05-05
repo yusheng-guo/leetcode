@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 263. 丑数
 // https://leetcode.cn/problems/ugly-number/description/
 // 方法二 n=2**a × 3**b × 5**c
@@ -51,7 +49,7 @@ func isUgly(n int) bool {
 //	return true
 //}
 
-func main() {
-	n := 1
-	fmt.Println(isUgly(n))
-}
+// func main() {
+// 	n := 1
+// 	fmt.Println(isUgly(n))
+// }

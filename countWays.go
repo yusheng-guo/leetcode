@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // ???
 func countWays(ranges [][]int) int {
 	l := len(ranges)
@@ -15,8 +13,8 @@ func countWays(ranges [][]int) int {
 	return 0
 }
 
-func main() {
-	ranges := [][]int{{1, 3}, {10, 20}, {2, 5}, {4, 8}}
-	ret := countWays(ranges)
-	fmt.Println(ret)
-}
+// func main() {
+// 	ranges := [][]int{{1, 3}, {10, 20}, {2, 5}, {4, 8}}
+// 	ret := countWays(ranges)
+// 	fmt.Println(ret)
+// }

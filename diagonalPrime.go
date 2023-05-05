@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 6361. 对角线上的质数
 // https://leetcode.cn/contest/weekly-contest-340/problems/prime-in-diagonal/
 func diagonalPrime(nums [][]int) int {
@@ -31,8 +29,8 @@ func isPrime(num int) bool {
 	return true
 }
 
-func main() {
-	arr := [][]int{{1, 2, 3}, {5, 6, 7}, {9, 10, 11}}
-	ret := diagonalPrime(arr)
-	fmt.Println(ret)
-}
+// func main() {
+// 	arr := [][]int{{1, 2, 3}, {5, 6, 7}, {9, 10, 11}}
+// 	ret := diagonalPrime(arr)
+// 	fmt.Println(ret)
+// }

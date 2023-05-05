@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 35. 搜索插入位置
 // https://leetcode.cn/problems/search-insert-position/
 // 方法二 二分查找
@@ -41,9 +39,9 @@ func searchInsert(nums []int, target int) int {
 //	return l
 //}
 
-func main() {
-	nums := []int{1, 3, 6, 7}
-	target := 6
-	ret := searchInsert(nums, target)
-	fmt.Println(ret)
-}
+// func main() {
+// 	nums := []int{1, 3, 6, 7}
+// 	target := 6
+// 	ret := searchInsert(nums, target)
+// 	fmt.Println(ret)
+// }

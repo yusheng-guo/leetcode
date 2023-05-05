@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // 11. 盛最多水的容器
 // https://leetcode.cn/problems/container-with-most-water/
 // 思想 双指针
@@ -31,8 +27,8 @@ func maxArea(height []int) int {
 	return ret
 }
 
-func main() {
-	arr := []int{1, 8, 6, 2, 5, 4, 8, 3, 7}
-	ret := maxArea(arr)
-	fmt.Println(ret)
-}
+// func main() {
+// 	arr := []int{1, 8, 6, 2, 5, 4, 8, 3, 7}
+// 	ret := maxArea(arr)
+// 	fmt.Println(ret)
+// }

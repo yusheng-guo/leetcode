@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -16,6 +15,7 @@ func threeSum(nums []int) [][]int {
 		}
 
 	}
+	return nil
 }
 
 // 方法一 三重遍历 暴力解法
@@ -57,8 +57,8 @@ func threeSum(nums []int) [][]int {
 //	return ans
 //}
 
-func main() {
-	nums := []int{-1, 0, 1, 2, -1, -4}
-	ret := threeSum(nums)
-	fmt.Println(ret)
-}
+// func main() {
+// 	nums := []int{-1, 0, 1, 2, -1, -4}
+// 	ret := threeSum(nums)
+// 	fmt.Println(ret)
+// }

@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -34,10 +33,10 @@ func query(arr []int) bool {
 	return true
 }
 
-func main() {
-	nums := []int{4, 6, 5, 9, 3, 7}
-	l := []int{0, 0, 2}
-	r := []int{2, 3, 5}
-	ret := checkArithmeticSubarrays(nums, l, r)
-	fmt.Println(ret)
-}
+// func main() {
+// 	nums := []int{4, 6, 5, 9, 3, 7}
+// 	l := []int{0, 0, 2}
+// 	r := []int{2, 3, 5}
+// 	ret := checkArithmeticSubarrays(nums, l, r)
+// 	fmt.Println(ret)
+// }

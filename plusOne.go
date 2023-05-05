@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // 66. 加一
 // https://leetcode.cn/problems/plus-one/
 // 方法二
@@ -52,8 +48,8 @@ func plusOne(digits []int) []int {
 //	return digits
 //}
 
-func main() {
-	nums := []int{9, 9, 9}
-	ret := plusOne(nums)
-	fmt.Println(ret)
-}
+// func main() {
+// 	nums := []int{9, 9, 9}
+// 	ret := plusOne(nums)
+// 	fmt.Println(ret)
+// }

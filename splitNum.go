@@ -27,8 +27,8 @@ func splitNum(num int) int {
 	return a + b
 }
 
-func main() {
-	num := 4325
-	ret := splitNum(num)
-	fmt.Println(ret)
-}
+// func main() {
+// 	num := 4325
+// 	ret := splitNum(num)
+// 	fmt.Println(ret)
+// }

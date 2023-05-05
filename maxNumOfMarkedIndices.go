@@ -24,8 +24,8 @@ func maxNumOfMarkedIndices(nums []int) int {
 	return ret
 }
 
-func main() {
-	nums := []int{9, 2, 5, 4}
-	ret := maxNumOfMarkedIndices(nums)
-	fmt.Println(ret)
-}
+// func main() {
+// 	nums := []int{9, 2, 5, 4}
+// 	ret := maxNumOfMarkedIndices(nums)
+// 	fmt.Println(ret)
+// }

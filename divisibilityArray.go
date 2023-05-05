@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 // 找出字符串的可整除数组
 func divisibilityArray(word string, m int) []int {
 	ans := []int{}
@@ -36,7 +32,7 @@ func divisibilityArray(word string, m int) []int {
 //	return ans
 //}
 
-func main() {
-	ret := divisibilityArray("998244353", 3)
-	fmt.Println(ret)
-}
+// func main() {
+// 	ret := divisibilityArray("998244353", 3)
+// 	fmt.Println(ret)
+// }

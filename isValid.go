@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // 有效的括号
 // https://leetcode.cn/problems/valid-parentheses/
 
@@ -56,7 +54,7 @@ func isValid(s string) bool {
 //	return len(stack) == 0
 //}
 
-func main() {
-	input := "()[]{}"
-	fmt.Println(isValid(input))
-}
+// func main() {
+// 	input := "()[]{}"
+// 	fmt.Println(isValid(input))
+// }

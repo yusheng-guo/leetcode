@@ -26,8 +26,8 @@ func largestLocal(grid [][]int) [][]int {
 	return ret
 }
 
-func main() {
-	grid := [][]int{{9, 9, 8, 1}, {5, 6, 2, 6}, {8, 2, 6, 4}, {6, 2, 2, 2}}
-	ret := largestLocal(grid)
-	fmt.Println(ret)
-}
+// func main() {
+// 	grid := [][]int{{9, 9, 8, 1}, {5, 6, 2, 6}, {8, 2, 6, 4}, {6, 2, 2, 2}}
+// 	ret := largestLocal(grid)
+// 	fmt.Println(ret)
+// }

@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -31,8 +30,8 @@ func containsDuplicate(nums []int) bool {
 //	return false
 //}
 
-func main() {
-	nums := []int{1, 2, 3, 1}
-	ret := containsDuplicate(nums)
-	fmt.Println(ret)
-}
+// func main() {
+// 	nums := []int{1, 2, 3, 1}
+// 	ret := containsDuplicate(nums)
+// 	fmt.Println(ret)
+// }

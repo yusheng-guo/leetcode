@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"sort"
 )
 
@@ -26,9 +25,9 @@ func mergeSimilarItems(items1 [][]int, items2 [][]int) [][]int {
 	return ans
 }
 
-func main() {
-	item1 := [][]int{{1, 1}, {4, 5}, {3, 8}}
-	item2 := [][]int{{3, 1}, {1, 5}}
-	ret := mergeSimilarItems(item1, item2)
-	fmt.Println(ret)
-}
+// func main() {
+// 	item1 := [][]int{{1, 1}, {4, 5}, {3, 8}}
+// 	item2 := [][]int{{3, 1}, {1, 5}}
+// 	ret := mergeSimilarItems(item1, item2)
+// 	fmt.Println(ret)
+// }
