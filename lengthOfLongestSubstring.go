@@ -2,7 +2,6 @@ package main
 
 import (
 	"bytes"
-	"fmt"
 )
 
 // 3. 无重复字符的最长子串
@@ -77,8 +76,8 @@ func lengthOfLongestSubstring(s string) int {
 	return ans
 }
 
-func main() {
-	s := "abcabc"
-	ret := lengthOfLongestSubstring(s)
-	fmt.Println(ret)
-}
+// func main() {
+// 	s := "abcabc"
+// 	ret := lengthOfLongestSubstring(s)
+// 	fmt.Println(ret)
+// }
