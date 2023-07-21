@@ -1,3 +1,6 @@
+#include <limits.h>
+
+
 int findMaxValueOfEquation(int** points, int pointsSize, int* pointsColSize, int k) {
     int res = INT_MIN;
     int deque[pointsSize][2];
